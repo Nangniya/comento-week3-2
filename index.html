@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="./index.js" type="module" defer></script>
+    <title>계산기</title>
+  </head>
+  <body>
+    <div class="whole-wrapper">
+        <input id="calculate_input" class="display-section"></input>
+        <div class="middle-bar display-section">
+            <div id="see_log_btn">로그</div>
+            <div id="cancel_btn">지우기</div>
+        </div>
+        <table class="btns-table display-section">
+            <thead>
+                <tr>
+                    <td class="red-btn circle-btn">C</td>
+                    <td class="green-btn circle-btn">( )</td>
+                    <td class="green-btn circle-btn">%</td>
+                    <td class="green-btn circle-btn">/</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <th class="green-btn">X</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <th class="green-btn">-</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <th class="green-btn">+</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="circle-btn">+/-</td>
+                    <td>0</td>
+                    <td>.</td>
+                    <th id="complete_btn">=</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+  </body>
+</html>
